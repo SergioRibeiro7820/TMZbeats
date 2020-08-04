@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #518684;
+}
+
+.tit {
+font-size: 70px;
+font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+text-align: center;
+}
+
+.tit a{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+
+.tit a:hover{
+    font-size: 80px;
+}
+
+.cab{
+    width: 100%;
+    height: 110px;
+}
+
+.sub{
+    text-align: center;
+    width: 100%;
+    font-family: Tahoma, sans-serif bold;
+    color: rgb(235, 235, 235);
+}
+
+#tagline2{
+    margin-left: 15px;
+    font-family: Tahoma, sans-serif bold;
+    font-size: 18px;
+}
+
+.tagline-left{
+    float: left;
+}
+
+.tagline-right{
+    float: right;
+}
+
+.tagline-right input{
+    width: 150px;
+    height: 30px;
+}
+
+.tagline-right input.bt{
+    width: 50px;
+    height: 30px;
+    background-color: #000;
+    color: #FFF;
+    border: #000 solid 1px;
+    cursor: pointer;
+}
+
+.tagline-right input.bt:hover{
+    background-color: #000000;
+    color: #FFF;
+    border: 1px;
+}
+
+.main-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#nav-container{
+    margin-top: 10px;
+}
+
+#nav-container{
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    z-index: 1000;
+    background-color: #00586e;
+}
+
+.sf-menu, .sf-menu *{
+    margin-left: 13px;
+    padding: 0;
+    list-style: none;
+}
+.sf-menu{
+    line-height: 1.0px;
+}
+
+.sf-menu ul{
+    position: absolute;
+    top: -999em;
+    width: 10em;
+}
+
+.sf-menu ul li{
+    width: 100%;
+    border-top: 5px solid #666;
+    cursor: pointer;
+}
+
+.sf-menu li{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    background: #00586e;
+}
+
+.sf-menu li{
+    background: #00586e;
+    padding-bottom: 12px;
+}
+
+.sf-menu li:hover{
+    visibility: inherit;
+    background: #44a2c2;
+    color: #1d1d1d;
+}
+
+.sf-menu li:active{
+    background: #006be6;
+    outline: 0;
+}
+
+.sf-menu a{
+    color: #f1f1f2;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    border-left: 1px solid #f1f1f2;
+    padding: .35em 1em;
+}
+
+.sf-menu a:hover{
+    color: #1d1d1d;
+    border-left: 1px solid #1d1d1d;
+    
+}
+
+.sf-menu a:active{
+    background: #006be6;
+    outline: 0;
+}
+
+#cont{
+    width: 100%;
+    height: 600px;
+    margin-top: 15px;
+    font: Tahoma, sans-serif, bold;
+    text-align: center;
+}
+
+#caixa-galeria{
+    width: 820px;
+    height: 300px;
+    background-color: #00586e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 3px;
+}
+
+#galeria-botoes{
+    width: 480px;
+    height: 80px;
+}
+
+.botao{
+    color: #f1f1f2;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    width: 135px;
+    float: left;
+
+    border-color: #676b67 #414741 #414741 #676b67;
+    border-style: solid;
+    border-width: .5px;
+
+    box-shadow: 1px 1px 3px #000000;
+
+    line-height: 40px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00585e+0,518684+100 */
+background: #00585e; /* Old browsers */
+background: -moz-linear-gradient(top,  #00585e 0%, #518684 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #00585e 0%,#518684 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #00585e 0%,#518684 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00585e', endColorstr='#518684',GradientType=0 ); /* IE6-9 */
+}
+
+.botao:hover{
+    border: #989797;
+    box-shadow: 1px 1px 1px #989797;
+    cursor: pointer;
+}
+
+#galeria{
+    width: 720px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+ul li{
+    float: left;
+    margin: 0.5em;
+}
+
+.imagem{
+    padding: 5px;
+    background-color: #f1f1f2;
+    border: 1px solid #989797;
+    width:150px;
+    height: 140px;
+
+    background-image: url(../imagens/bannernuv150140.fw.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
